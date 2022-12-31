@@ -1,0 +1,433 @@
+.header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.header .conteiner {
+  width: 1366px;
+  max-width: 1366px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header .conteiner .row {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  justify-content: center;
+}
+.header .conteiner .row .main {
+  width: 1200px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .conteiner .row .main .logo a {
+  text-decoration: none;
+}
+.header .menu {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.title {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  background-image: url(img/tiitle.svg);
+}
+.title h1 {
+  font-family: "Gilroy";
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.title p {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.wrap {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.inp {
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 15px;
+  padding-left: 50px;
+  width: 940px;
+  height: 50px;
+}
+
+.butonSerch {
+  width: 24px;
+  height: 24px;
+  background-image: url(img/ic_search_24px.svg);
+  border: none;
+  background-color: #F4F4F4;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 1103px;
+  top: 412px;
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+}
+.one .line {
+  width: calc(30% - 12px);
+  margin: 10px;
+  padding: 10px;
+}
+.one .line .n2 .share {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 457px;
+  top: 1360px;
+}
+.one .line .n2 .baseline-bookmarks {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 420px;
+  top: 1360px;
+}
+.one .line .n3 .share {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 767px;
+  top: 1360px;
+}
+.one .line .n3 .baseline-bookmarks {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 730px;
+  top: 1360px;
+}
+.one .line .n4 .share {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1080px;
+  top: 1360px;
+}
+.one .line .n4 .baseline-bookmarks {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1040px;
+  top: 1360px;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+}
+.news .news1 {
+  width: 401px;
+  height: 379px;
+}
+.news .news1 .share {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 807px;
+  top: 898px;
+}
+.news .news1 .baseline-bookmarks {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 864px;
+  top: 899px;
+}
+.news .news1 h1 {
+  width: 380px;
+  height: 116px;
+  font-family: "Galien";
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.news .news1 h1 p {
+  font-family: "Galien";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+}
+.news .news_img {
+  width: 540px;
+  height: 380px;
+}
+
+.popular {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 25px;
+  color: #356EAD;
+  opacity: 0.8;
+}
+.popular a {
+  text-decoration: none;
+}
+
+.See_All_Popular_Article {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+}
+.See_All_Popular_Article a {
+  text-decoration: none;
+}
+
+.vertikal .sekct {
+  display: flex;
+  padding: 10px 0;
+  flex-direction: column;
+}
+.vertikal .sekct .ver {
+  width: calc(100% - 100px);
+  margin: -13px;
+  padding: 7px;
+}
+.vertikal .sekct .ver .news_2 {
+  display: flex;
+  align-items: center;
+}
+.vertikal .sekct .ver .news_2 .news_img2 {
+  margin: 5px;
+  padding: 5px;
+}
+.vertikal .sekct .ver .news_2 .share {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 596px;
+  top: 1730px;
+}
+.vertikal .sekct .ver .news_2 .baseline-bookmarks {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 560px;
+  top: 1730px;
+}
+.vertikal .sekct .ver .news_2 .share_1 {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 596px;
+  top: 1940px;
+}
+.vertikal .sekct .ver .news_2 .baseline-bookmarks_1 {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 560px;
+  top: 1941px;
+}
+.vertikal .sekct .ver .news_2 .share_2 {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 596px;
+  top: 2156px;
+}
+.vertikal .sekct .ver .news_2 .baseline-bookmarks_2 {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 560px;
+  top: 2157px;
+}
+.vertikal .sekct .ver .news_2 .share_3 {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 596px;
+  top: 2369px;
+}
+.vertikal .sekct .ver .news_2 .baseline-bookmarks_3 {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 560px;
+  top: 2369px;
+}
+.vertikal .sekct .ver .news_2 .share_4 {
+  background-image: url(img/baseline-bookmarks-24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 596px;
+  top: 2579px;
+}
+.vertikal .sekct .ver .news_2 .baseline-bookmarks_4 {
+  background-image: url(img/share_24px.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 560px;
+  top: 2579px;
+}
+
+.ALL_ARTICLE {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+.ALL_ARTICLE a {
+  text-decoration: none;
+}
+
+.New {
+  display: flex;
+  justify-content: space-between;
+}
+.New a {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  text-decoration: none;
+}
+
+.footer {
+  background-image: url(img/footer_img.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1366px;
+  height: 866px;
+}
+.footer .test {
+  width: 73%;
+  margin-top: -107px;
+  border-top: 1px solid #FFFFFF;
+}
+.footer .ins {
+  height: 390px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 50px;
+}
+.footer .ins h1 {
+  padding: 10px;
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.footer .ins p {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.footer .ins button {
+  background-color: #5A98D0;
+  color: #FFFFFF;
+  border: none;
+  width: 220px;
+  height: 56px;
+  padding: 10px;
+  margin: 107px;
+}
+
+.spisok1 {
+  display: flex;
+  margin: 90px;
+}
+.spisok1 li {
+  width: 299px;
+  height: 48px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+.spisok1 li span a {
+  font-family: "Gilroy";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.spisok1 li a {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.end {
+  position: absolute;
+  left: 137px;
+  top: 3444px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
+}/*# sourceMappingURL=style.css.map */
